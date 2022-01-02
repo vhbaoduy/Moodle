@@ -1,4 +1,4 @@
-a:45:{s:13:"accountexists";s:181:"A user already exists on this site with this username. If this is your account, log in by entering your username and password and add it as a linked login via your preferences page.";s:22:"auth_oauth2description";s:38:"OAuth 2 standards based authentication";s:19:"auth_oauth2settings";s:32:"OAuth 2 authentication settings.";s:19:"confirmaccountemail";s:576:"Hi {$a->fullname},
+a:45:{s:13:"accountexists";s:181:"A user already exists on this site with this username. If this is your account, log in by entering your username and password and add it as a linked login via your preferences page.";s:22:"auth_oauth2description";s:38:"OAuth 2 standards based authentication";s:19:"auth_oauth2settings";s:32:"OAuth 2 authentication settings.";s:19:"confirmaccountemail";s:594:"Hi {$a->fullname},
 
 A new account has been requested at '{$a->sitename}'
 using your email address.
@@ -16,7 +16,7 @@ If you need help, please contact the site administrator,
 {$a->admin}
 
 If you did not do this, someone else could be trying to compromise your account.
-Please contact the site administrator immediately.";s:26:"confirmaccountemailsubject";s:26:"{$a}: account confirmation";s:19:"confirmationinvalid";s:131:"The confirmation link is either invalid, or has expired. Please start the login process again to generate a new confirmation email.";s:19:"confirmationpending";s:43:"This account is pending email confirmation.";s:23:"confirmlinkedloginemail";s:654:"Hi {$a->fullname},
+Please contact the site administrator immediately.";s:26:"confirmaccountemailsubject";s:26:"{$a}: account confirmation";s:19:"confirmationinvalid";s:131:"The confirmation link is either invalid, or has expired. Please start the login process again to generate a new confirmation email.";s:19:"confirmationpending";s:43:"This account is pending email confirmation.";s:23:"confirmlinkedloginemail";s:673:"Hi {$a->fullname},
 
 A request has been made to link the {$a->issuername} login
 {$a->linkedemail} to your account at '{$a->sitename}'
@@ -35,11 +35,11 @@ If you need help, please contact the site administrator,
 {$a->admin}
 
 If you did not do this, someone else could be trying to compromise your account.
-Please contact the site administrator immediately.";s:30:"confirmlinkedloginemailsubject";s:31:"{$a}: linked login confirmation";s:21:"createaccountswarning";s:160:"This authentication plugin allows users to create accounts on your site. You may want to enable the setting "authpreventaccountcreation" if you use this plugin.";s:20:"createnewlinkedlogin";s:25:"Link a new account ({$a})";s:16:"emailconfirmlink";s:18:"Link your accounts";s:20:"emailconfirmlinksent";s:353:"<p>An existing account was found with this email address but it is not linked yet.</p>
+Please contact the site administrator immediately.";s:30:"confirmlinkedloginemailsubject";s:31:"{$a}: linked login confirmation";s:21:"createaccountswarning";s:160:"This authentication plugin allows users to create accounts on your site. You may want to enable the setting "authpreventaccountcreation" if you use this plugin.";s:20:"createnewlinkedlogin";s:25:"Link a new account ({$a})";s:16:"emailconfirmlink";s:18:"Link your accounts";s:20:"emailconfirmlinksent";s:357:"<p>An existing account was found with this email address but it is not linked yet.</p>
    <p>The accounts must be linked before you can log in.</p>
    <p>An email should have been sent to your address at <b>{$a}</b>.</p>
    <p>It contains easy instructions to link your accounts.</p>
-   <p>If you have any difficulty, contact the site administrator.</p>";s:23:"emailpasswordchangeinfo";s:283:"Hi {$a->firstname},
+   <p>If you have any difficulty, contact the site administrator.</p>";s:23:"emailpasswordchangeinfo";s:290:"Hi {$a->firstname},
 
 Someone (probably you) has requested a new password for your account on '{$a->sitename}'.
 
