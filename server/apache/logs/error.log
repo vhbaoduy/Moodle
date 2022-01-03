@@ -40,3 +40,31 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 02 14:26:36.854330 2022] [mpm_winnt:notice] [pid 5488:tid 480] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jan 02 14:26:38.870251 2022] [mpm_winnt:notice] [pid 12660:tid 564] AH00364: Child: All worker threads have exited.
 [Sun Jan 02 14:26:38.953213 2022] [mpm_winnt:notice] [pid 5488:tid 480] AH00430: Parent: Child process 12660 exited successfully.
+[Mon Jan 03 13:39:16.799050 2022] [ssl:warn] [pid 15272:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 13:39:16.908397 2022] [ssl:warn] [pid 15272:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jan 03 13:39:16.924019 2022] [mpm_winnt:notice] [pid 15272:tid 592] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 03 13:39:16.924019 2022] [mpm_winnt:notice] [pid 15272:tid 592] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 03 13:39:16.924019 2022] [core:notice] [pid 15272:tid 592] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Jan 03 13:39:16.924019 2022] [mpm_winnt:notice] [pid 15272:tid 592] AH00418: Parent: Created child process 3644
+[Mon Jan 03 13:39:17.517629 2022] [ssl:warn] [pid 3644:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 13:39:17.627142 2022] [ssl:warn] [pid 3644:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jan 03 13:39:17.658221 2022] [mpm_winnt:notice] [pid 3644:tid 576] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 03 13:48:34.220462 2022] [mpm_winnt:notice] [pid 15272:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 03 13:48:36.327025 2022] [mpm_winnt:notice] [pid 3644:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Jan 03 13:48:37.081630 2022] [mpm_winnt:notice] [pid 15272:tid 592] AH00430: Parent: Child process 3644 exited successfully.
+[Mon Jan 03 13:49:19.239459 2022] [ssl:warn] [pid 12848:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 13:49:19.311738 2022] [ssl:warn] [pid 12848:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jan 03 13:49:19.332896 2022] [mpm_winnt:notice] [pid 12848:tid 560] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 03 13:49:19.332896 2022] [mpm_winnt:notice] [pid 12848:tid 560] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 03 13:49:19.332896 2022] [core:notice] [pid 12848:tid 560] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Jan 03 13:49:19.395435 2022] [mpm_winnt:notice] [pid 12848:tid 560] AH00418: Parent: Created child process 16408
+[Mon Jan 03 13:49:19.933316 2022] [ssl:warn] [pid 16408:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 13:49:20.011434 2022] [ssl:warn] [pid 16408:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Jan 03 13:49:20.042661 2022] [mpm_winnt:notice] [pid 16408:tid 596] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 03 13:50:52.689259 2022] [mpm_winnt:notice] [pid 12848:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 03 13:50:54.710677 2022] [mpm_winnt:notice] [pid 16408:tid 596] AH00364: Child: All worker threads have exited.
+[Mon Jan 03 13:50:54.819988 2022] [mpm_winnt:notice] [pid 12848:tid 560] AH00430: Parent: Child process 16408 exited successfully.
