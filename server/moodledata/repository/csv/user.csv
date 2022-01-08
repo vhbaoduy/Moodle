@@ -2,3 +2,5 @@ username,password,firstname,lastname,email
 student1,1,Student,One,s1@example.com
 student2,1,Student,Two,s2@example.com
 teacher1,1,Teacher,One,t1@example.com
+teacher,Teacher@123,Teacher,Testing,teacher.testing@mail.com
+student,Student@123,Student,Testing,student.testing@mail.com
